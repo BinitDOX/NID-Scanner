@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#373740</color>
+    <color name="colorPrimaryDark">#27272f</color>
+    <color name="colorAccent">#1EB980</color>
+    <color name="colorHint">#a6a6b9</color>
+    <color name="colorTitle">#c3c3ce</color>
+    <color name="colorButtonText">#f1f1f5</color>
+
+
+    <color name="rallyGreen1">#37EFBA</color>
+    <color name="rallyGreen2">#04B97F</color>
+    <color name="rallyGreen3">#007D51</color>
+    <color name="rallyGreen4">#005D57</color>
+
+    <color name="rallyGreen">#1EB980</color>
+    <color name="rallyDarkGreen">#aa045d56</color>
+    <color name="rallyOrange">#FF6859</color>
+    <color name="rallyYellow">#FFCF44</color>
+    <color name="rallyPurple">#B15DFF</color>
+    <color name="rallyBlue">#72deff</color>
+
+    <color name="red">#df1b1e</color>
+
+
+    <color name="darkPink">#FE4365</color>
+    <color name="lightPink">#FC9D9A</color>
+    <color name="lightPinkish">#F9CDAD</color>
+    <color name="lightGrey">#C8C8A9</color>
+    <color name="lightGreen">#83af9b</color>
+
+    <color name="grey_500">#373740</color>
+    <color name="grey_100">#373740</color>
+    <color name="grey_300">#373740</color>
+
+    <color name="PieChartBlue">#6495ED</color>
+    <color name="PieChartGreen">#66CDAA</color>
+    <color name="PieChartYellow">#EEDD82</color>
+    <color name="PieChartPink">#FFB6C2</color>
+
+
+    <color name="blue">#ff59a9ff</color>
+    <color name="orange">#ffff900d</color>
+    <color name="bottom_background_color">#ffc4c2bc</color>
+
+    <color name="polygonViewCircleStrokeColor">#ff59a9ff</color>
+    <color name="polygonViewCircleBackground">#90e5f8ff</color>
+</resources>

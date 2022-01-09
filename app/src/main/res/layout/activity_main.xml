@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.armyof2.docscanner.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_main_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/roboto"
+        android:text="Select Document"
+        android:textColor="@color/colorTitle"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_main_adhr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_main_title"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="85dp"
+        android:background="@drawable/roundbutton"
+        android:onClick="onAdhrButtonClicked"
+        android:text="Aadhaar Card"
+        android:textColor="@color/colorButtonText"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_main_pan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btn_main_adhr"
+        android:layout_alignStart="@+id/btn_main_adhr"
+        android:layout_below="@+id/btn_main_adhr"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/roundbutton"
+        android:onClick="onPanButtonClicked"
+        android:text="PAN Card"
+        android:textColor="@color/colorButtonText"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_main_lic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btn_main_adhr"
+        android:layout_alignStart="@+id/btn_main_adhr"
+        android:layout_below="@+id/btn_main_pan"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/roundbutton"
+        android:onClick="onLicButtonClicked"
+        android:text="License card"
+        android:textColor="@color/colorButtonText"
+        android:textSize="18sp" />
+
+</RelativeLayout>
